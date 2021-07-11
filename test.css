@@ -1,0 +1,85 @@
+.total{
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-auto-rows: minmax(60px, auto);
+	grid-template-areas:
+	"hd hd hd hd hd "
+	"sd co co co co "
+	"fo fo fo fo fo "; 
+}
+.header{
+	grid-area: hd;
+	background-color: black;
+	font-size: 50px;
+	font-style: italic;
+	font-family: sans-serif;
+	text-align: center;
+	color:orange;
+}
+.sidebar{
+	grid-area: sd;
+	height:3500px;
+	background-color: lightblue;
+}
+.content{
+	grid-area: co;
+	height: 3550px;
+	background-color: grey;
+}
+.footer{
+	grid-area: fo;
+	background-color: #555;
+	height: 70px;
+}
+#img{
+	width:400px;
+	height:400px;
+}
+#img1{
+	width:800px;
+	height:800px;
+}
+.head2{
+	font-family: sans-serif;
+	font-style: italic;
+}
+p{
+	font-family: sans-serif;
+	font-style: italic;
+	font-size:50px;
+}
+#copy{
+	font-size: 30px;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:transparent;
+  width: 100%;
+}
+li a{
+  display: block;
+  color: orange;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+li{
+  float:left;
+}
+li a:hover:not(.active){
+  background-color: orange;
+  color:black;
+}
+.hidden{
+  visibility: hidden;
+  width: 100%;
+}
+div:hover .hidden{
+  visibility: visible;
+  background-color: black;
+  width: 100%;
+  float: left;
+}

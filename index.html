@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WELCOME PAGE</title>
+	<link rel="stylesheet" type="text/css" href="welcome.css">
+</head>
+<body id="bye">
+<h1 class="wel">WELCOME,</h1>
+<h1 id="name"></h1>
+<h1 class="wel">NICE TO MEET YOU ON</h1>
+<p id="time"></p>
+<h2 class="head2">Do you want to visit my other webpages??</h2>
+<form action="test2.html">
+    <input type="submit" value="YES" id="b2">
+</form>
+<button value="NO" id="b1" onclick="print1()">NO</button>
+<script>
+var x=prompt("HELLO,WHAT'S YOUR NAME");
+document.getElementById('name').innerHTML=x;
+document.getElementById('time').innerHTML=Date();
+function print1(){
+document.getElementById("bye").innerHTML="OK ,BYE"
+}
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
+</script>
+</body>
+</html>

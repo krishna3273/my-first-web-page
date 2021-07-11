@@ -1,0 +1,30 @@
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 0;
+  background: rgba(0,0,1,0.7);
+  visibility: hidden;
+  width: 0;
+  height: 90%;
+  transition:5s ease;
+}
+.contain{
+  padding:10px;
+}
+.contain:hover .overlay{
+  visibility: visible;
+  width: 50%;
+  left: 0;
+}
+.text{
+  white-space: normal;
+  color: red;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}

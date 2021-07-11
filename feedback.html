@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FEEDBACK</title>
+	<link rel="stylesheet" type="text/css" href="feedback.css">
+</head>
+<body id="bye">
+<div class="float">
+			<br>
+<ul class="head_ul" class="hidden">
+<li><a href="test2.html" class="hidden">HOME</a></li>
+</ul>
+</div>
+<h1 id ="bye1"></h1>
+<h1 id="bye2"></h1> 
+<form id="sub1">
+	<i><strong><h2>YOUR EMAIL ID:</h2></strong></i>
+<textarea id="mail"></textarea>
+<h2 id="bye3">YOUR VALUABLE SUGGESTIONS FOR IMPROVEMENT OF WEBSITE:</h2>
+<textarea id="sub"></textarea>
+</form>
+<div id="fed1"><button  id="fed" onclick="clear1()">SUBMIT</button></div>
+<script>
+function clear1(){
+var x=document.getElementById("sub").value = "";
+document.getElementById("mail").value = "";
+document.getElementById("sub1").innerHTML = "";
+document.getElementById("bye1").innerHTML="YOUR RESPSONSE HAS BEEN RECORDED"
+document.getElementById("bye2").innerHTML="THANKYOU FOR YOUR VALUABLE SUGGESTIONS"
+document.getElementById("bye3").innerHTML=""
+document.getElementById("fed1").innerHTML=""
+}
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
+</script>
+</body>
+</html>

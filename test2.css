@@ -1,0 +1,255 @@
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+ /* opacity: 0.65;
+  background-attachment: fixed;*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgimg-1 {
+  background-image: url("http://2.bp.blogspot.com/-rWwuZmyapCk/UsTftEYItwI/AAAAAAAAAG8/fEjobHgFxdk/s1600/Procrastination+is+a+thief.jpg");
+  min-height: 100%;
+}
+.bgimg-2 {
+  background-image: url("http://static.hdw.eweb4.com/media/thumbs/1/1/9711.jpg");
+  min-height: 600px;
+}
+.bgimg-3 {
+background-image:url("http://www.sepeb.com/plain-background-images-hd/plain-background-images-hd-008.jpg");
+min-height: 680px;
+}
+.bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+body, html {
+  height: 100%;
+  margin: 0;
+  color: #777;
+  background-color: grey;
+}
+.caption {
+  position: absolute;
+  left: 0;
+  bottom:10%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+} 
+#div_about{
+  color: orange;background-color:lightblue;text-align:center;padding:50px 80px;
+  height: 600px;
+}
+#head_about{
+  color:black;
+  font-family: serif;
+  font-style: italic;
+}
+#open_p{
+  height: 300px;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:transparent;
+  width: 100%;
+}
+li a{
+  display: block;
+  color: orange;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+li{
+  float:left;
+}
+li a:hover:not(.active){
+  background-color: orange;
+  color:black;
+}
+.hidden{
+  visibility: hidden;
+  width: 100%;
+}
+div:hover .hidden{
+  visibility: visible;
+  background-color: black;
+  width: 100%;
+  float: left;
+}
+div.float{
+  float: left;
+  width:100%;
+}
+div.bottom{
+    position: absolute;
+    width:300px;
+    height: 50px;
+    font-size: 30px;
+    background-color:lightblue;
+    transition-property: width height font-size font-style color background-color;
+    transition-duration: 10s;
+    text-align: center;
+    visibility: none;
+    color:black;
+}
+div.bottom:hover {
+    font-size: 50px;
+    font-style: italic;
+    width:500px;
+    height: 75px;
+    color: black;
+    background-color: orange;
+    visibility: block;
+}
+#head4{
+  color: orange;
+}
+
+.gif{
+  width: 150px;
+  border-radius:100px;
+}
+.main {
+    position:relative;
+    display: block;
+}
+.info {
+    visibility: hidden;
+    background-color: black;
+    color: orange;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 120%;
+    position:absolute;
+    top: 100%;
+    left: 50%;
+}
+
+.main:hover .info{
+    visibility: visible;
+}
+div.overlay{
+  position: absolute;
+  left: 50%;
+  right: 0;
+  background:black;
+  overflow: inherit;
+  width: 50%;
+  height: 100%;
+  transition:10s ease;
+  opacity: 1;
+}
+.contain{
+  padding:10px;
+}
+div.contain:hover .overlay{
+  width: 50%;
+  left: 0;
+}
+div.text{
+  white-space: normal;
+  color: lightblue;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+.test1{
+  font-style: italic;
+  font-family: sans-serif;
+  font-size: 20px;
+  float:right;
+  color:black;
+  bottom:10%;
+}
+#tot1{
+  float: left;
+
+}
+#head_about1{
+  font-style: italic;
+  font-family: sans-serif;
+  float: right;
+  color: black;
+  bottom: 10%;
+}
+#name1{
+  font-style: italic;
+  font-family: sans-serif;
+  color: black;
+}
+#int_photo{
+  width:300px;
+  height: 300px;
+  float: left;
+}
+#int_photo1{
+  width:300px;
+  height:300px;
+  float: right;
+}
+#test4{
+ font-style: italic;
+  font-family: sans-serif;
+  float: right;
+  color: black;
+  top:0; 
+}
+#para{
+  font-size:50px;
+  font-family: sans-serif;
+  font-style: italic;
+  color: black;
+}
+#int1{
+  color:black;
+}
+#head_home{
+  top:0;
+  font-family: sans-serif;
+  font-style: italic;
+  text-align: left;
+  color:darkgreen;
+}
+#p_home{
+  top:20%;
+  font-family: sans-serif;
+  font-style:italic;
+  text-align: left;
+}
+a{
+background-color: black;
+color: orange;
+text-decoration: none;
+align-items: left;
+}
+#anc{
+  float: left;
+  background-color: black;
+}
+#h_home{
+  color:orange;
+  font-family: sans-serif;
+  font-style: italic;
+  top:0;
+  text-align:left;
+}
+.fun{
+  width:0px;
+  height: 0px;
+  background-color: black;
+  color: orange;
+  font-size: 40px;
+  visibility: hidden;
+}
+div:hover .fun{
+  visibility: visible;
+}

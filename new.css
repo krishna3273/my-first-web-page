@@ -1,0 +1,135 @@
+#calculator{
+	border-width: : 60px ;
+	border-color: black;
+	border-style: dotted;
+	margin: 10px;
+	padding: 10px;
+	background-color: aqua;
+	width:800px;
+	height: 850px;
+}
+#time{
+	color:black;
+	font-size:70px;
+	font-style: italic;
+	font-family:serif;
+	text-align: center;
+
+}
+body{
+	background-color:#555;
+}
+#add{
+	background-color: black;
+	color: orange;
+	width:100px;
+	height: 50px;
+}
+#subtract{
+	background-color: black;
+	color: orange;
+	width:100px;
+	height: 50px;
+}
+#multiply{
+	background-color: black;
+	color: orange;
+	width:100px;
+	height: 50px;
+}
+#divide{
+	background-color: black;
+	color: orange;
+	width:100px;
+	height: 50px;
+}
+#reset{
+	background-color: black;
+	color: orange;
+	width:150px;
+	height: 150px;
+	border-radius: 100%;
+}
+#num1{
+	background-color: orange;
+	color: black;
+	width:400px;
+	height:80px;
+	font-size: 30px;
+	font-family: serif;
+	font-style: italic;	
+}
+#num2{
+	background-color: orange;
+	color: black;
+width:400px;
+	height:80px;
+	font-size: 30px;
+	font-family: serif;
+	font-style: italic;	
+}
+#form1{
+	background-color: grey;
+height:400px;
+width: 800px;
+padding: 10px;
+margin: 10px;
+border-width: 10px;
+border-style: inset;
+visibility: visible;
+}
+#div1{
+	text-align: center;
+}
+#div2{
+	text-align: left;
+}
+#div3{
+	text-align: right;
+}
+#header{
+	text-align: center;
+	color:black;
+	background-color: orange;
+	width:30%;
+}
+#start,#stop,#reset1{
+	background-color: black;
+	color: orange;
+	width:80px;
+	height:40px;
+}
+#head1{
+	font-family: sans-serif;
+	font-style: italic;
+	text-align: center;
+}
+ul{
+	list-style: none;
+}
+.test>ul{
+	background: none repeat scroll 0 0 #4CB96B;
+    /*border-top: 1px solid #ededed;*/
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height:40px;
+}
+li{
+	display: inline-block;
+	background-color: white;
+	padding-left:5px;
+	padding-right: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	height: 40px;
+	width:60px;
+}
+li{
+	text-decoration: none;
+	font-style: italic;
+	font-size: 20px;
+	font-family: sans-serif;
+	background-color: black;
+	color: orange;
+}

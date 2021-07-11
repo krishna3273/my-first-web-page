@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BASIC TOOLS</title>
+<link rel="stylesheet" type="text/css" href="new.css">
+</head>
+<body>
+<h1 id="header">BASIC JAVASCRIPT</h1>
+
+<center><div id="form1">
+<h1 id="head1">STOPWATCH</h1>
+<div id="div1"><button onclick="start()" id="start">start</button></div>
+<br><br>
+<div id="div2"><button onclick="stop()" id="stop">stop</button></div>
+<br><br>
+<div id="div3"><button onclick="reset()" id="reset1" >reset</button></div>
+<h1 id="time"></h1>
+</div>
+</center>
+<center><div id="calculator">
+	<center><h1><b><strong>BASIC CALCULATOR</strong></b></h1></center>
+<br><br><h1 class="head">ENTER NUMBER1</h1><br>
+<input type="quantity"  id="num1">
+<br><h1 class="head">ENTER NUMBER2</h1><br>
+<input id="num2" type="quantity" ><br><br>
+<b><h1 class="head">The Answer is: <strong><i><h4 class="head" id="total"></h4></i></strong></h1></b>
+<button onclick="add()" id="add">add</button>
+<button onclick="subtract()" id="subtract">subtract</button>
+<button onclick="multiply()" id="multiply">multiply</button>
+<button onclick="divide()" id="divide">divide</button>
+<button onclick="reset1()" id="reset">reset</button>
+</div></center>	
+<script>
+var time = 0
+var xyz=0
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
+function add () {
+    var num1 = document.getElementById('num1').value;
+    var num2 = document.getElementById('num2').value;
+    var answer = (parseInt(num1) + parseInt(num2));
+
+    document.getElementById('total').innerText = answer;
+}
+function subtract () {
+    var num1 = document.getElementById('num1').value;
+    var num2 = document.getElementById('num2').value;
+    var answer = (parseInt(num1) - parseInt(num2));
+    document.getElementById('total').innerText = answer;
+}
+function multiply () {
+    var num1 = document.getElementById('num1').value;
+    var num2 = document.getElementById('num2').value;
+    var answer = (parseInt(num1) * parseInt(num2));
+    document.getElementById('total').innerText = answer;
+}
+function divide () {
+    var num1 = document.getElementById('num1').value;
+    var num2 = document.getElementById('num2').value;
+    var answer = (parseInt(num1) / parseInt(num2));
+
+    document.getElementById('total').innerText = answer;
+}
+function reset1() {
+	document.getElementById('num1').value="";
+	document.getElementById('num2').value="";
+	document.getElementById('total').innerHTML="";
+}
+function update(){
+        time = time + 1
+                document.getElementById("time").innerHTML = time
+                document.getElementById("form1").innerHTML.style.visibility="hidden"
+}
+function start(){
+	if(!xyz)  xyz = setInterval(update,1000)
+
+}
+function stop(){
+clearInterval(xyz)
+xyz=0
+}
+function reset(){
+	time=0
+	clearInterval(xyz)
+	xyz=0
+	document.getElementById("time").innerHTML=""
+}
+</script>
+

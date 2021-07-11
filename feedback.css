@@ -1,0 +1,76 @@
+#sub{
+ width: 60%;
+  height: 300px;
+   border: 1px solid #999999; 
+   padding: 5px;
+   rows:"40";
+   cols:"5";
+   top:50%;
+   background-color: #555;
+   color:orange;
+   font-size: 25px;
+   opacity: 0.65;
+ }
+ #mail{
+ 	rows:"1";
+ 	cols:"15";
+ 	width:50%;
+ 	height:40px;
+ 	background-color: #555;
+   color:orange;
+   font-size: 25px;
+   opacity: 0.65;
+ }
+ #bye1,#bye2{
+color:darkgreen;
+font-size: 30px;
+font-family: serif;
+font-style: italic;
+ }
+ #bye{
+ 	background-image: url("https://previews.123rf.com/images/3dagentur/3dagentur1701/3dagentur170100111/68671230-3d-Rendering-of-Cartoon-Figure-Filling-Out-Feedback-Form-with-Large-Pen-in-front-of-White-Background-Stock-Photo.jpg");
+
+ }
+ #fed{
+ 	background-color:black;
+ 	color:orange;
+ 	width:80px;
+ 	height:40px;
+ }
+ #bye3{
+ 	font-family: serif;
+ 	font-style: italic;
+ 	color:orange;
+ }
+ ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:transparent;
+  width: 100%;
+}
+li a{
+  display: block;
+  color: orange;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+li{
+  float:left;
+}
+li a:hover:not(.active){
+  background-color: orange;
+  color:black;
+}
+.hidden{
+  visibility: hidden;
+  width: 100%;
+}
+div:hover .hidden{
+  visibility: visible;
+  background-color: black;
+  width: 100%;
+  float: left;
+}

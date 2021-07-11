@@ -1,0 +1,51 @@
+#name{
+	font-family: serif;
+	font-style: italic;
+	font-size:50px;
+	color:lightgreen; 
+}
+body{
+	background-image: url("https://lh3.googleusercontent.com/HdH9NHo9nzou74YMXxR9dwoeQqCSeHVxN0bMy58_nU8ID8vu_Ikqp4BMKd-2LTeD9LY=h900");
+	background-size: 100%;
+}
+.wel{
+	font-family: sans-serif;
+	font-style: italic;
+	font-size:50px;
+	color:orange;
+	top:0; 
+}
+#bye{
+	color:orange;
+	font-family: sans-serif;
+	font-style: italic;
+	font-size: 100px;
+}
+.head2{
+	font-size: 30px;
+color:lightgreen;
+}
+#b1{
+	width:80px;
+	height:40px;
+	background-color: black;
+	color: orange;
+}
+#b2{
+width:80px;
+	height:40px;
+	background-color: black;
+	color: orange;
+}	
+li{
+	list-style: none;
+	display: block;
+}
+ul{
+	display: block;
+}
+p{
+	font-size: 30px;
+	font-family: serif;
+	font-style: italic;
+}
